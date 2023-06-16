@@ -7,8 +7,18 @@
     body{
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
+    
+    div#forms>p{
+        font-size: 1em;
+        margin: 10px 0px;
+    }
+    div#forms > h1{
+        font-size: 1.4em;
+        margin-top: 25px;
+    }
     section#login{
         width: 90vw;
+        height: 350px;
         
     }
     section#login > div#imagem{
@@ -17,16 +27,18 @@
         height: 100%;
 
     }
-    section#login >div#form{
+    section#login >div#forms{
         float: right;
 
         width: 70%;
     }
+    
 }
 
 @media screen and (min-width: 992px) {
     section#login{
         width: 950px;
+        height: 550px;
     }
     body{
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
@@ -40,11 +52,19 @@
         background-size: cover;
     }
     
-    section#login > div#form{
+    section#login > div#forms{
         float: right;
         width: 50%;
     }
-
+    div#forms > p {
+        font-size: 1.2em;
+        margin: 20px 0px;
+    }
+    div#forms > h1{
+        font-size: 2em;
+        margin-top: 80px;
+    }
+    
 
 }
 
