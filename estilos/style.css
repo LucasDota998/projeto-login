@@ -81,7 +81,7 @@ div.campo> span{
 
 div.campo>input{
     background-color: #5ccac7;
-    padding: 4px;
+    padding: 5px;
     height: 100%;
     width: calc(100% - 45px);
     border-radius: 5px;
@@ -97,7 +97,7 @@ form> input[type=submit]{
     display: block;
     font-size: 1em;
     width: 100%;
-    height: 30px;
+    height: 40px;
     background-color: #49a09d ;
     color: white;
     border: none;
@@ -112,7 +112,7 @@ form>.esqueci{
     display: block;
     font-size: 1em;
     width: 100%;
-    height: 30px;
+    height: 40px;
     background-color: #49a09d ;
     color: white;
     border: none;
